@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - CodeSoftSystems</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../Index/styles.css">
+</head>
+< <div class="container-fluid">
+    <header class="header-main">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo-wrapper">
+                    <a href="../Index/Index.html">
+                        <img src="../Img/Logo.png" alt="Logo" class="logo">
+                    </a>
+                </div>
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="main-nav">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="../Noticias/noticias.html" class="nav-button">
+                                <span class="nav-text">Noticias</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Servicios/servicios.html" class="nav-button">
+                                <span class="nav-text">Servicios</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Sobre_nosotros/sobre_nosotros.html" class="nav-button">
+                                <span class="nav-text">Sobre Nosotros</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="../Valoraciones/valoraciones.html" class="nav-button">
+                                <span class="nav-text">Valoraciones</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+        <main class="row justify-content-center">
+            <div class="col-12 text-center mb-5">
+                <div class="hero-section shadow-soft py-5">
+                    <h1>Contacto</h1>
+                    <p class="descripcion">Estamos aquí para ayudarte. Contáctanos a través del siguiente formulario.</p>
+                </div>
+            </div>
+
+            <div class="col-md-8 mb-4">
+                <div class="formulario-destacado shadow-soft">
+                    <h2 class="titulo-formulario">Envíanos un mensaje</h2>
+                    <form id="formularioContacto" class="formulario-contacto">
+                        <div class="form-group">
+                            <label for="nombre">Nombre:</label>
+                            <input type="text" id="nombre" name="nombre" class="input-destacado" placeholder="Tu nombre" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" class="input-destacado" placeholder="tu.email@ejemplo.com" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="mensaje">Mensaje:</label>
+                            <textarea id="mensaje" name="mensaje" class="input-destacado" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                        </div>
+                        
+                        <div class="text-center mt-4">
+                            <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+
+        <footer class="row mt-5">
+            <div class="col-12 text-center shadow-soft py-3">
+                <p class="mb-0">&copy; 2024 CodeSoftSystems</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../Index/script.js"></script>
+</body>
+</html>
